@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css">
+    <title>My test page</title>
+  </head>
+  <body>
+    <p>This is my page</p>
+    <form action="/my-handling-form-page" method="post">
+      <ul>
+        <li> <!-- Each part of a form can be put in a list item li for organisation and easier styling. -->
+          <label for="name">Name:</label> <!-- Remember, the "for" in a label has to match the id of the input it goes with. -->
+          <input type="text" name="user_name" id="name" />
+        </li>
+        <li>
+          <label for="mail">Email:</label>
+          <input type="email" name="user_email" id="email" /> <!-- Ensuring you use proper types like "email" means only appropriate inputs from the user will be accepted. -->
+        </li>
+        <li>
+          <label for="msg">Message:</label>
+          <textarea name="user_message" id="msg">Default text can be put here before the closing tag!</textarea>
+        </li>
+        <li class="button">
+            <button type="submit">Send your message</button>
+        </li>
+      </ul>
+    </form>
+    <h1 class="rotated">DEAN</h1>
+  </body>
+</html>
