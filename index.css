@@ -1,11 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: rgb(0, 162, 255);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #fff;
+  width: 100%;
+  margin: 0;
+  padding: 2rem 0;
+  position: relative;
+  top: 0;
+}
+
+h1 {
+    color: rgb(0, 162, 255);
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit underline;
 }
 
 form {
     /* Center the form on the page */
-    margin: 0 auto;
+    margin: 1rem auto;
     width: 500px;
     /* Form outline */
     padding: 1em;
@@ -67,16 +93,4 @@ form {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: .5em;
-  }
-
-  .rotated {
-      bottom: 0;
-      color: #fff;
-      display: inline;
-      font-size: 8rem;
-      margin: 0;
-      padding: 0;
-      position: absolute;
-      right: 0;
-      transform: rotate(315deg);
   }
